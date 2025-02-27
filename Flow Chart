@@ -1,9 +1,262 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
-  <diagram name="Page-1" id="HsJFLDLf__hj75cIHrRU">
-    <mxGraphModel>
+  <diagram name="Flow System" id="HsJFLDLf__hj75cIHrRU">
+    <mxGraphModel dx="1429" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-133" value="Market Analysis" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1113" width="762" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-134" value="Deployment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="922" y="961" width="795" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-135" value="Model Optimization" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="656" width="767" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-136" value="AI Model" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="504" width="495" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-137" value="Data Sources" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="120" width="1118" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-138" value="Start" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="723" y="20" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-139" value="Define Data Sources" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="646" y="145" width="203" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-140" value="Preprocess Data" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1293" y="271" width="174" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-141" value="Extract Features" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="400" width="179" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-142" value="Train AI Model" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1299" y="529" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-143" value="Evaluate Model" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="690" y="681" width="169" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-144" value="Optimize Model" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="832" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-145" value="Deploy Model" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1083" y="986" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-146" value="Analyze Market Trends" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="423" y="1138" width="221" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-147" value="MarketData" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="271" width="142" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-148" value="SocialMediaData" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="382" y="271" width="177" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-149" value="NewsData" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="609" y="271" width="130" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-150" value="ExchangeData" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="790" y="271" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-151" value="SentimentAnalysisData" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="271" width="223" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-152" value="RegressionModel" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1267" y="681" width="178" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-153" value="ClassificationModel" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1494" y="681" width="198" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-154" value="CrossValidation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="295" y="832" width="169" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-155" value="HyperparameterTuning" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="514" y="832" width="224" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-156" value="FeatureSelection" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="787" y="832" width="182" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-157" value="ApiDeployment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="962" y="1138" width="169" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-158" value="DashboardDeployment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1181" y="1138" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-159" value="AlertSystemDeployment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1451" y="1138" width="232" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-160" value="PredictMarketTrends" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="179" y="1289" width="207" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-161" value="VisualizationTools" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="435" y="1289" width="186" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-162" value="ReportGeneration" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="672" y="1289" width="187" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-163" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-138" target="RLOpdRbLoTFZtTa8zYfD-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-164" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.74;entryX=0.15;entryY=0.01;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-139" target="RLOpdRbLoTFZtTa8zYfD-140">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1238" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-165" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-140" target="RLOpdRbLoTFZtTa8zYfD-141">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-166" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-141" target="RLOpdRbLoTFZtTa8zYfD-142">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-167" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.22;exitY=1.01;entryX=1;entryY=0.33;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-142" target="RLOpdRbLoTFZtTa8zYfD-143">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1274" y="620" />
+              <mxPoint x="1274" y="656" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-168" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.91;entryX=0.03;entryY=0;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-143" target="RLOpdRbLoTFZtTa8zYfD-144">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="973" y="760" />
+              <mxPoint x="973" y="796" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-169" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-144" target="RLOpdRbLoTFZtTa8zYfD-145">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-170" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.99;entryX=1;entryY=0.25;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-145" target="RLOpdRbLoTFZtTa8zYfD-146">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="971" y="1076" />
+              <mxPoint x="971" y="1113" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-171" value="Market Data" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.75;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-139" target="RLOpdRbLoTFZtTa8zYfD-147">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="261" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-172" value="Social Media Data" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.93;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-139" target="RLOpdRbLoTFZtTa8zYfD-148">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="471" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-173" value="News Data" style="curved=1;startArrow=none;endArrow=block;exitX=0.35;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-139" target="RLOpdRbLoTFZtTa8zYfD-149">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="674" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-174" value="Exchange Data" style="curved=1;startArrow=none;endArrow=block;exitX=0.76;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-139" target="RLOpdRbLoTFZtTa8zYfD-150">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-175" value="Sentiment Analysis Data" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.83;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-139" target="RLOpdRbLoTFZtTa8zYfD-151">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1111" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-176" value="Regression" style="curved=1;startArrow=none;endArrow=block;exitX=0.44;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-142" target="RLOpdRbLoTFZtTa8zYfD-152">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1355" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-177" value="Classification" style="curved=1;startArrow=none;endArrow=block;exitX=1.01;exitY=0.95;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-142" target="RLOpdRbLoTFZtTa8zYfD-153">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1593" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-178" value="Cross Validation" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.7;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-143" target="RLOpdRbLoTFZtTa8zYfD-154">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="379" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-179" value="Hyperparameter Tuning" style="curved=1;startArrow=none;endArrow=block;exitX=0.04;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-143" target="RLOpdRbLoTFZtTa8zYfD-155">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-180" value="Feature Selection" style="curved=1;startArrow=none;endArrow=block;exitX=0.82;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-143" target="RLOpdRbLoTFZtTa8zYfD-156">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="878" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-181" value="API" style="curved=1;startArrow=none;endArrow=block;exitX=0.18;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-145" target="RLOpdRbLoTFZtTa8zYfD-157">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1046" y="1076" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-182" value="Dashboard" style="curved=1;startArrow=none;endArrow=block;exitX=0.85;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-145" target="RLOpdRbLoTFZtTa8zYfD-158">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1291" y="1076" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-183" value="Alert System" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.73;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-145" target="RLOpdRbLoTFZtTa8zYfD-159">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1567" y="1076" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-184" value="Predict Next Market Trends" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.92;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-146" target="RLOpdRbLoTFZtTa8zYfD-160">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="282" y="1217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-185" value="Visualization" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-146" target="RLOpdRbLoTFZtTa8zYfD-161">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="528" y="1217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLOpdRbLoTFZtTa8zYfD-186" value="Report Generation" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.95;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RLOpdRbLoTFZtTa8zYfD-146" target="RLOpdRbLoTFZtTa8zYfD-162">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="765" y="1217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
